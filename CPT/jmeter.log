@@ -1,0 +1,261 @@
+2017/05/04 16:43:19 INFO  - jmeter.util.JMeterUtils: Setting Locale to ru_RU 
+2017/05/04 16:43:20 ERROR - jmeter.util.JMeterUtils: Could not find resources for 'ru_RU' 
+2017/05/04 16:43:20 INFO  - jmeter.JMeter: Loading user properties from: C:\jmeter\bin\user.properties 
+2017/05/04 16:43:20 INFO  - jmeter.JMeter: Loading system properties from: C:\jmeter\bin\system.properties 
+2017/05/04 16:43:20 INFO  - jmeter.JMeter: Setting JMeter property: jmeter.save.saveservice.output_format=xml 
+2017/05/04 16:43:20 INFO  - jmeter.JMeter: Copyright (c) 1998-2016 The Apache Software Foundation 
+2017/05/04 16:43:20 INFO  - jmeter.JMeter: Version 3.1 r1770033 
+2017/05/04 16:43:20 INFO  - jmeter.JMeter: java.version=1.8.0_121 
+2017/05/04 16:43:20 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2017/05/04 16:43:20 INFO  - jmeter.JMeter: os.name=Windows 10 
+2017/05/04 16:43:20 INFO  - jmeter.JMeter: os.arch=amd64 
+2017/05/04 16:43:20 INFO  - jmeter.JMeter: os.version=10.0 
+2017/05/04 16:43:20 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2017/05/04 16:43:20 INFO  - jmeter.JMeter: Max memory     =5355601920 
+2017/05/04 16:43:20 INFO  - jmeter.JMeter: Available Processors =4 
+2017/05/04 16:43:20 INFO  - jmeter.JMeter: Default Locale=русский (Россия) 
+2017/05/04 16:43:20 INFO  - jmeter.JMeter: JMeter  Locale=русский (Россия) 
+2017/05/04 16:43:20 INFO  - jmeter.JMeter: JMeterHome=C:\jmeter 
+2017/05/04 16:43:20 INFO  - jmeter.JMeter: user.dir  =C:\Users\diana.chizh.MORION\.jenkins\workspace\CPT 
+2017/05/04 16:43:20 INFO  - jmeter.JMeter: PWD       =C:\Users\diana.chizh.MORION\.jenkins\workspace\CPT 
+2017/05/04 16:43:20 INFO  - jmeter.JMeter: IP: 10.0.4.55 Name: Diana FullName: Diana.morion.local 
+2017/05/04 16:43:20 INFO  - jmeter.services.FileServer: Default base='C:\Users\diana.chizh.MORION\.jenkins\workspace\CPT' 
+2017/05/04 16:43:20 INFO  - jmeter.services.FileServer: Set new base='C:\Users\diana.chizh.MORION\.jenkins\workspace\CPT\test' 
+2017/05/04 16:43:21 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2017/05/04 16:43:21 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2017/05/04 16:43:21 INFO  - jmeter.save.SaveService: Using SaveService properties version 3.1 
+2017/05/04 16:43:21 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2017/05/04 16:43:21 INFO  - jmeter.save.SaveService: Loading file: C:\Users\diana.chizh.MORION\.jenkins\workspace\CPT\test\test.jmx 
+2017/05/04 16:43:21 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/05/04 16:43:21 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/05/04 16:43:21 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/05/04 16:43:21 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser 
+2017/05/04 16:43:21 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2017/05/04 16:43:21 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser 
+2017/05/04 16:43:21 INFO  - jmeter.JMeter: Creating summariser <summary> 
+2017/05/04 16:43:23 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2017/05/04 16:43:24 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2017/05/04 16:43:24 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2017/05/04 16:43:24 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2017/05/04 16:43:24 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2017/05/04 16:43:26 WARN  - jorphan.reflect.ClassFinder: Can not open the jar C:/jmeter/lib/ext/jmeter-plugins-casutg-2.1.jar C:\jmeter\lib\ext\jmeter-plugins-casutg-2.1.jar (Отказано в доступе) java.io.FileNotFoundException: C:\jmeter\lib\ext\jmeter-plugins-casutg-2.1.jar (Отказано в доступе)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:163)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:435)
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:289)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:264)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:196)
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:71)
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44)
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:52)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:305)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017/05/04 16:43:26 WARN  - jorphan.reflect.ClassFinder: Can not open the jar C:/jmeter/lib/ext/jmeter-plugins-cmd-2.1.jar C:\jmeter\lib\ext\jmeter-plugins-cmd-2.1.jar (Отказано в доступе) java.io.FileNotFoundException: C:\jmeter\lib\ext\jmeter-plugins-cmd-2.1.jar (Отказано в доступе)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:163)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:435)
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:289)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:264)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:196)
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:71)
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44)
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:52)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:305)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017/05/04 16:43:26 WARN  - jorphan.reflect.ClassFinder: Can not open the jar C:/jmeter/lib/ext/jmeter-plugins-csvars-0.1.jar C:\jmeter\lib\ext\jmeter-plugins-csvars-0.1.jar (Отказано в доступе) java.io.FileNotFoundException: C:\jmeter\lib\ext\jmeter-plugins-csvars-0.1.jar (Отказано в доступе)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:163)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:435)
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:289)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:264)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:196)
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:71)
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44)
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:52)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:305)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017/05/04 16:43:26 WARN  - jorphan.reflect.ClassFinder: Can not open the jar C:/jmeter/lib/ext/jmeter-plugins-dummy-0.2.jar C:\jmeter\lib\ext\jmeter-plugins-dummy-0.2.jar (Отказано в доступе) java.io.FileNotFoundException: C:\jmeter\lib\ext\jmeter-plugins-dummy-0.2.jar (Отказано в доступе)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:163)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:435)
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:289)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:264)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:196)
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:71)
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44)
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:52)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:305)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017/05/04 16:43:26 WARN  - jorphan.reflect.ClassFinder: Can not open the jar C:/jmeter/lib/ext/jmeter-plugins-fifo-0.2.jar C:\jmeter\lib\ext\jmeter-plugins-fifo-0.2.jar (Отказано в доступе) java.io.FileNotFoundException: C:\jmeter\lib\ext\jmeter-plugins-fifo-0.2.jar (Отказано в доступе)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:163)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:435)
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:289)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:264)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:196)
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:71)
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44)
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:52)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:305)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017/05/04 16:43:26 WARN  - jorphan.reflect.ClassFinder: Can not open the jar C:/jmeter/lib/ext/jmeter-plugins-filterresults-2.1.jar C:\jmeter\lib\ext\jmeter-plugins-filterresults-2.1.jar (Отказано в доступе) java.io.FileNotFoundException: C:\jmeter\lib\ext\jmeter-plugins-filterresults-2.1.jar (Отказано в доступе)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:163)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:435)
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:289)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:264)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:196)
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:71)
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44)
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:52)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:305)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017/05/04 16:43:26 WARN  - jorphan.reflect.ClassFinder: Can not open the jar C:/jmeter/lib/ext/jmeter-plugins-functions-2.0.jar C:\jmeter\lib\ext\jmeter-plugins-functions-2.0.jar (Отказано в доступе) java.io.FileNotFoundException: C:\jmeter\lib\ext\jmeter-plugins-functions-2.0.jar (Отказано в доступе)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:163)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:435)
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:289)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:264)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:196)
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:71)
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44)
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:52)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:305)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017/05/04 16:43:26 WARN  - jorphan.reflect.ClassFinder: Can not open the jar C:/jmeter/lib/ext/jmeter-plugins-lockfile-0.1.jar C:\jmeter\lib\ext\jmeter-plugins-lockfile-0.1.jar (Отказано в доступе) java.io.FileNotFoundException: C:\jmeter\lib\ext\jmeter-plugins-lockfile-0.1.jar (Отказано в доступе)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:163)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:435)
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:289)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:264)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:196)
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:71)
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44)
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:52)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:305)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017/05/04 16:43:26 WARN  - jorphan.reflect.ClassFinder: Can not open the jar C:/jmeter/lib/ext/jmeter-plugins-pde-0.1.jar C:\jmeter\lib\ext\jmeter-plugins-pde-0.1.jar (Отказано в доступе) java.io.FileNotFoundException: C:\jmeter\lib\ext\jmeter-plugins-pde-0.1.jar (Отказано в доступе)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:163)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:435)
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:289)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:264)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:196)
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:71)
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44)
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:52)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:305)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017/05/04 16:43:26 WARN  - jorphan.reflect.ClassFinder: Can not open the jar C:/jmeter/lib/ext/jmeter-plugins-plancheck-2.2.jar C:\jmeter\lib\ext\jmeter-plugins-plancheck-2.2.jar (Отказано в доступе) java.io.FileNotFoundException: C:\jmeter\lib\ext\jmeter-plugins-plancheck-2.2.jar (Отказано в доступе)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:163)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:435)
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:289)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:264)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:196)
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:71)
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44)
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:52)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:305)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017/05/04 16:43:26 WARN  - jorphan.reflect.ClassFinder: Can not open the jar C:/jmeter/lib/ext/jmeter-plugins-prmctl-0.3.jar C:\jmeter\lib\ext\jmeter-plugins-prmctl-0.3.jar (Отказано в доступе) java.io.FileNotFoundException: C:\jmeter\lib\ext\jmeter-plugins-prmctl-0.3.jar (Отказано в доступе)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:163)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:435)
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:289)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:264)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:196)
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:71)
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44)
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:52)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:305)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017/05/04 16:43:26 WARN  - jorphan.reflect.ClassFinder: Can not open the jar C:/jmeter/lib/ext/jmeter-plugins-webdriver-1.4.0.jar C:\jmeter\lib\ext\jmeter-plugins-webdriver-1.4.0.jar (Отказано в доступе) java.io.FileNotFoundException: C:\jmeter\lib\ext\jmeter-plugins-webdriver-1.4.0.jar (Отказано в доступе)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:163)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:435)
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:289)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:264)
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:196)
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:71)
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:44)
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:52)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:305)
+	at java.lang.Thread.run(Thread.java:745)
+
+2017/05/04 16:43:33 WARN  - jmeter.reporters.ResultCollector: Unexpected EOF trying to find XML end marker in C:\Users\diana.chizh.MORION\.jenkins\workspace\CPT\result\result.jtl 
+2017/05/04 16:43:33 INFO  - jmeter.JMeter: Running test (1493905413449) 
+2017/05/04 16:43:33 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2017/05/04 16:43:33 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1 threads for group Thread Group. 
+2017/05/04 16:43:33 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2017/05/04 16:43:33 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 1 ramp-up 1 perThread 1000.0 delayedStart=false 
+2017/05/04 16:43:33 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2017/05/04 16:43:33 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2017/05/04 16:43:33 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2017/05/04 16:43:33 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = Diana 
+2017/05/04 16:43:33 INFO  - jmeter.protocol.http.sampler.HTTPHC4Impl: HTTP request retry count = 0 
+2017/05/04 16:43:33 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2017/05/04 16:43:33 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2017/05/04 16:43:33 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2017/05/04 16:43:33 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2017/05/04 16:43:34 INFO  - jmeter.reporters.Summariser: summary +      1 in 00:00:01 =    1,0/s Avg:   487 Min:   487 Max:   487 Err:     0 (0,00%) Active: 1 Started: 1 Finished: 0 
+2017/05/04 16:43:36 INFO  - jmeter.threads.JMeterThread: Thread is done: Thread Group 1-1 
+2017/05/04 16:43:36 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2017/05/04 16:43:36 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2017/05/04 16:43:36 INFO  - kg.apc.jmeter.JMeterPluginsUtils: JMeter-Plugins.org v.1.4.0 
+2017/05/04 16:43:36 INFO  - kg.apc.jmeter.PluginsCMDWorker: Using JMeterPluginsCMD v. 1.4.0 
+2017/05/04 16:43:36 WARN  - kg.apc.jmeter.JMeterPluginsUtils: JMeter env exists. No one should see this normally. 
+2017/05/04 16:43:37 ERROR - jmeter.JMeter: Uncaught exception:  java.lang.NoClassDefFoundError: org/jmeterplugins/visualizers/gui/FilterPanel
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at kg.apc.jmeter.PluginsCMDWorker.getGUIObject(PluginsCMDWorker.java:227)
+	at kg.apc.jmeter.PluginsCMDWorker.getGUIObject(PluginsCMDWorker.java:234)
+	at kg.apc.jmeter.PluginsCMDWorker.setPluginType(PluginsCMDWorker.java:73)
+	at kg.apc.jmeter.listener.GraphsGeneratorListener.testEnded(GraphsGeneratorListener.java:221)
+	at kg.apc.jmeter.listener.GraphsGeneratorListener.testEnded(GraphsGeneratorListener.java:137)
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfEnd(StandardJMeterEngine.java:216)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:437)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.jmeterplugins.visualizers.gui.FilterPanel
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 10 more
+
+2017/05/04 16:43:37 INFO  - jmeter.reporters.ResultCollector: Shutdown hook started 
+2017/05/04 16:43:37 INFO  - jmeter.reporters.ResultCollector: Shutdown hook ended 

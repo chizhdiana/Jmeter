@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="193" it="0" lt="192" ct="132" ts="1493905187433" s="true" lb="auth" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="524" sby="248" ng="1" na="1"/>
+<httpSample t="13" it="0" lt="4" ct="0" ts="1493905187672" s="true" lb="List corps" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2138" sby="269" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <sample t="3" it="0" lt="0" ct="0" ts="1493905187682" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1204" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="7" it="0" lt="7" ct="0" ts="1493905187694" s="true" lb="List schms" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="934" sby="293" ng="1" na="1"/>
+<httpSample t="11" it="0" lt="10" ct="0" ts="1493905188539" s="true" lb="Moves" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="558" sby="319" ng="1" na="1"/>
+<httpSample t="11" it="0" lt="11" ct="0" ts="1493905188551" s="true" lb="Stocks" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="561" sby="320" ng="1" na="1"/>
+
+<httpSample t="487" it="0" lt="487" ct="403" ts="1493905413919" s="true" lb="auth" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="524" sby="248" ng="1" na="1"/>
+<httpSample t="38" it="0" lt="6" ct="0" ts="1493905414460" s="true" lb="List corps" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="2138" sby="269" ng="1" na="1">
+  <assertionResult>
+    <name>Response Assertion</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <sample t="26" it="0" lt="0" ct="0" ts="1493905414472" s="true" lb="Debug PostProcessor" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="1204" sby="0" ng="0" na="0"/>
+</httpSample>
+<httpSample t="5" it="0" lt="5" ct="0" ts="1493905414522" s="true" lb="List schms" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="934" sby="293" ng="1" na="1"/>
+<httpSample t="12" it="0" lt="12" ct="3" ts="1493905416919" s="true" lb="Moves" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="558" sby="319" ng="1" na="1"/>
+<httpSample t="8" it="0" lt="8" ct="0" ts="1493905416932" s="true" lb="Stocks" rc="200" rm="OK" tn="Thread Group 1-1" dt="text" by="561" sby="320" ng="1" na="1"/>
